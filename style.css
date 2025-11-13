@@ -14,7 +14,7 @@ body {
     padding:0 20px;
 }
 .main-header {
-    backround-color: #005726;
+    background-color: #005726;
     padding: 20px 0;
 }
 .main-header .container {
@@ -26,12 +26,26 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
+    transition: transform .5s ease;
 
+}
+.logo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .main-header a {
     color: #ffffff;
     text-decoration: none;
     margin-left: 30px;
+    transition: color .67s ease;
+}
+.main-nav a:hover {
+    color: #5dff9e;
+    text-decoration: underline;
+}
+.main-nav a:focus {
+    outline: 2px solid #5dff9e;
+    outline-offset:4px ;
 }
 .hero {
     background-color: #507124;
@@ -42,6 +56,11 @@ body {
 .hero-title {
     font-size: 48px;
     margin-bottom: 20px;
+    transition: color .8s ease, transform .8s ease;
+}
+.hero-title:hover {
+    color: #5dff9e;
+    transform: scale(1.1);
 }
 .hero-subtitle {
     font-size: 20px;
@@ -54,8 +73,18 @@ body {
     border-radius: 100px;
     border-width: 3px;
     cursor: pointer;
+    transition: transform .2s ease, opacity 1s ease;
+ 
 }
 .btn-primary {
     background-color: #303b22cc;
     color: #ffffff;
+}
+.btn:hover {
+    transform: translate(3px) scale(1.02);
+    opacity: .8;
+    
+}
+.btn:active {
+    transform: translateY(0);
 }
