@@ -73,7 +73,7 @@ body {
     border-radius: 100px;
     border-width: 3px;
     cursor: pointer;
-    transition: transform .2s ease, opacity 1s ease;
+    transition: transform .8s ease, opacity 1s ease;
  
 }
 .btn-primary {
