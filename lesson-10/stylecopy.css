@@ -242,3 +242,38 @@ h3 {
     border-radius: 12px;
     border: rgba(0, 0, 0, 0.1);
 }
+.community {
+    padding: 80px 0;
+    background-color: white;
+}
+.community-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-direction: row-reverse;
+}
+.community-text {
+    flex: 1;
+}
+.community-image {
+    flex: 1;
+}
+.community-text h2 {
+    color: navy;
+    margin-bottom: 25px;
+}
+.join-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.community-image img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
