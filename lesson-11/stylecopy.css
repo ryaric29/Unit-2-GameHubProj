@@ -241,6 +241,7 @@ h3 {
     width: 100%;
     border-radius: 12px;
     border: rgba(0, 0, 0, 0.1);
+    transition: transform .3s ease;
 }
 .community {
     padding: 80px 0;
@@ -276,5 +277,8 @@ h3 {
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-   
+      transition: transform .3s ease;
+}
+.about-image img:hover, .community-image img:hover {
+ transform: scale(1.1);
 }
