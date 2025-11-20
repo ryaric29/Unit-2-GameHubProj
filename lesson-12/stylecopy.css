@@ -286,10 +286,56 @@ h3 {
 .main-footer {
     background: linear-gradient(135deg, rgb(127, 151, 119) 0%, rgb(18, 63, 2) 100%);
     color: white;
+    padding: 60px 0 20px 0;
+   
 }
 .footer-content  {
     display: flex;
     justify-content: space-between;
     gap: 40px;
     margin-bottom: 40px;
+    flex: 1;
+}
+.footer-section {
+flex: 1;
+min-width: 250px;
+}
+.footer-links li {
+margin-bottom: 10px;
+}
+.footer-links a {
+color: #bdc3c7;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+.footer-links a:hover {
+color: #3498db;
+}
+.social-links {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+.social-links a {
+color: #bdc3c7;
+text-decoration: none;
+font-size: 16px;
+transition: color 0.3s ease;
+}
+.social-links a:hover {
+color: #3498db;
+}
+.footer-bottom {
+text-align: center;
+padding-top: 30px;
+border-top: 1px solid rgba(255,255,255,0.1);
+color: #95a5a6;
+}
+.footer-bottom a {
+color: #95a5a6;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+.footer-bottom a:hover {
+color: #3498db;
 }
