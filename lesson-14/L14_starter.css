@@ -569,3 +569,21 @@ ACCESSIBILITY EXPLANATION:
    END OF LESSON 13
    Your GameHub is now complete with animations!
    =================================== */
+/* lesson 14
+Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+       background: linear-gradient(135deg, #002fff 0%, #000000 100%);
+    }
+
+}
+/* Mobile Nav */
+.mobile-nav {
+    display: none;
+}
+.hamburger {
+    display: none;
+}
+.hamburger:focus + .mobile-nav {
+    display: flex;
+}
