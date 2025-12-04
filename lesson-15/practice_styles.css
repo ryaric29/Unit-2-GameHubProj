@@ -86,7 +86,7 @@
    text-align: center;
    border-radius: 15px;
    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-   transform: translateY(-10px);
+   transition: .3s ease;
 }
 
 
@@ -145,7 +145,10 @@
 
 /* YOUR CODE FOR TASK 4 HERE: */
 
-
+.service-card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
 
 
 /* ===========================================
@@ -162,7 +165,17 @@
    =========================================== */
 
 /* YOUR CODE FOR TASK 5 HERE: */
-
+@media (max-width: 768px) { 
+ .services-container {
+   display: block;
+ }
+ .section-title {
+   font-size: 28px;
+ }
+ .services {
+   padding: 40px 20px;
+ }
+}
 
 
 
